@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <nav className="bg-blue-300 px-2 sm:px-2 py-2.5">
             <div className="container flex flex-wrap items-center mx-auto justify-between">
-                <a href className=" text-3xl line-through">Nft</a>
+                <a href className=" text-3xl line-through">NFT</a>
                  <div className="flex md:hidden md:order-2">
                     <button type="button " onClick={()=> setVisible(!visible)}>
                         {visible ? <BiMenu size={20}/> : <BiArrowToTop size={20}/>}
