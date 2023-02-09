@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components'
+import {Zap} from '@styled-icons/octicons'
 
 const Navbar = () => {
     return (
@@ -7,8 +9,16 @@ const Navbar = () => {
                 <a href className=" text-3xl line-through">Nft</a>
                  <div className="flex md:hidden md:order-2">
                     <button type="button">
-                        add icon
+                        <Zap/>
                     </button>
+                 </div>
+                 <div className="justify-between items-center w-full md:flex md:w-auto md:order-1">
+                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                        <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a></li>
+                        <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a></li>
+                        <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a></li>
+                        <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a></li>
+                    </ul>
                  </div>
             </div>  
         </nav>
