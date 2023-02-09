@@ -13,8 +13,10 @@ const Navbar = () => {
                     </button>
                  </div>
                  <div className="justify-between items-center w-full md:flex md:w-auto md:order-1">
-                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                        <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a> home</li>
+                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-xl ">
+                        <li className="py-2 md:py-0">
+                            <a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">
+                                </a> home</li>
                         <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a>About</li>
                         <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a>Minting Process</li>
                         <li className="py-2 md:py-0"><a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"></a>Button</li>
