@@ -16,10 +16,10 @@ const Navbar = () => {
                         {visible ? <BiMenu size={20}/> : <BiArrowToTop size={20}/>}
                     </button>
                  </div>
-                 <div className={`${visible ? `hidden` : ``} justify-between hidden items-center w-full md:flex md:w-auto md:order-1`}>
+                 <div className={`${visible ? `hidden` : ``} justify-between  items-center w-full md:flex md:w-auto md:order-1`}>
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-xl ">
                         <li className="py-2 md:py-0">
-                            <a href="" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">home</a> </li>
+                            <a href="google.com" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">home</a> </li>
                         <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">About</a></li>
                         <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Minting Process</a></li>
                         <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Button</a></li>
