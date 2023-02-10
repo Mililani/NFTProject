@@ -7,13 +7,13 @@ const Landing = () => {
                 <div className=" grid grid-cols-1 md:grid-cols-2 container mx-auto">
                 <div>
                     <h1 className=" text-3xl text-center md:text-left md:text-6xl  text-white">
-                    Nft purchase{" "} 
+                    Discovery{" "} 
                     <span className="underline decoration-solid">
-                        Buy Nft in bulk as time
+                    Collect & Sell
                     </span>{" "} 
-                    in the {" "}
+                    Extraodinary {" "}
                     <span className="underline decoration-solid">
-                    world
+                    NFTs
                     </span>  
                     </h1>
                     <p className="  md:text-2xl"> 
