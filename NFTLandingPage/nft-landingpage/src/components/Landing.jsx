@@ -1,13 +1,13 @@
 import React from 'react';
-import Spline from '@splinetool/react-spline';
+//import {ima} from "../public/—Pngtree—a businessman wearing vr headsets_7650332.png";
 
 
 const Landing = () => {
     return (
         <>
-            <div className="bg-blue-300 py-20 md:py-24">
+            <div className="bg-black py-20 md:py-24">
                 <div className=" grid grid-cols-1 md:grid-cols-2 container mx-auto">
-                <div>
+                <div className='flex flex-col'>
                     <h1 className=" text-3xl text-center md:text-left md:text-6xl  text-white">
                     Discovery{" "} 
                     <span className="underline decoration-solid">
@@ -18,12 +18,12 @@ const Landing = () => {
                     NFTs
                     </span>  
                     </h1>
-                    <p className=" px-2 md:text-2xl  "> 
+                    <p className="md:pt-2 px-2 md:text-2xl text-center  md:text-left "> 
                         theuhii iuiuyiuf ijiuuyy iuiuyiugog higyufugiugu iugiufugiui yuuuygiyg iufuy ut uyufutf  uguyfu yufuftu fufuf fyuff
                     </p>
                 </div>
                     <div>
-                    <Spline scene="https://prod.spline.design/yZnnBCc1EO-UsLDy/scene.splinecode" />
+                    <img src="" alt="Nft" />
                     </div>
                 </div>
             </div>  
