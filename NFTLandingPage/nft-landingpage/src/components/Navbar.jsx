@@ -22,7 +22,7 @@ const Navbar = () => {
                             <a href="google.com" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">home</a> </li>
                         <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">About</a></li>
                         <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Minting Process</a></li>
-                        <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Button</a></li>
+                        <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Connect Wallet</a></li>
                     </ul>
                  </div>
             </div>  
