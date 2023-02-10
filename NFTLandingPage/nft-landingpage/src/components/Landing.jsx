@@ -1,5 +1,5 @@
 import React from 'react';
-//import {ima} from "../public/—Pngtree—a businessman wearing vr headsets_7650332.png";
+import ima from "./images/—Pngtree—a businessman wearing vr headsets_7650332.png";
 
 
 const Landing = () => {
@@ -23,7 +23,7 @@ const Landing = () => {
                     </p>
                 </div>
                     <div>
-                    <img src="" alt="Nft" />
+                    <img src={ima} alt="Nft" />
                     </div>
                 </div>
             </div>  
