@@ -30,16 +30,19 @@ const Landing = () => {
                         </div>
                         <div className="text-white text-center">
                             <h1 className="text-xl md:text-3xl">
-                                $5457
+                                1.3M
                             </h1>
-                            <p className="text-sm md:text-base"> trade</p>
+                            <p className="text-sm md:text-base"> Total Users</p>
                         </div>
                         <div className="text-white text-center">
                             <h1 className="text-xl md:text-3xl">
-                                $5457
+                                940
                             </h1>
-                            <p className="text-sm md:text-base"> trade</p>
+                            <p className="text-sm md:text-base"> Available NFTs</p>
                         </div>
+                    </div>
+                    <div>
+                     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded items-center">Mint</button>
                     </div>
                 </div>
                     <div className="animate-bounce hidden md:block ">
