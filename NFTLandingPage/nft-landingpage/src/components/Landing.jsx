@@ -1,4 +1,6 @@
 import React from 'react';
+import Spline from '@splinetool/react-spline';
+
 
 const Landing = () => {
     return (
@@ -16,13 +18,13 @@ const Landing = () => {
                     NFTs
                     </span>  
                     </h1>
-                    <p className="md:pt-2 px-2 md:text-2xl text-center  md:text-left "> 
+                    <p className=" px-2 md:text-2xl  "> 
                         theuhii iuiuyiuf ijiuuyy iuiuyiugog higyufugiugu iugiufugiui yuuuygiyg iufuy ut uyufutf  uguyfu yufuftu fufuf fyuff
                     </p>
                 </div>
-                <div>
-                    
-                </div>
+                    <div>
+                    <Spline scene="https://prod.spline.design/yZnnBCc1EO-UsLDy/scene.splinecode" />
+                    </div>
                 </div>
             </div>  
          
