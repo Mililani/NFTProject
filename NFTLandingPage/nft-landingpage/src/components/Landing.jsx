@@ -11,14 +11,17 @@ const Landing = () => {
                     <span className="underline decoration-solid">
                     Collect & Sell
                     </span>{" "} 
-                    Extraodinary {" "}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600">Extraodinary</span> {" "}
                     <span className="underline decoration-solid">
                     NFTs
                     </span>  
                     </h1>
-                    <p className="  md:text-2xl"> 
+                    <p className="md:pt-2 px-2 md:text-2xl text-center  md:text-left "> 
                         theuhii iuiuyiuf ijiuuyy iuiuyiugog higyufugiugu iugiufugiui yuuuygiyg iufuy ut uyufutf  uguyfu yufuftu fufuf fyuff
                     </p>
+                </div>
+                <div>
+                    
                 </div>
                 </div>
             </div>  
