@@ -5,7 +5,7 @@ import ima from "./images/—Pngtree—a businessman wearing vr headsets_7650332
 const Landing = () => {
     return (
         <>
-            <div className="bg-black py-20 md:py-24">
+            <div className="bg-gradient-to-r from-blue-400 via-blue-900 to-gray-900 py-20 md:py-24 ">
                 <div className=" grid grid-cols-1 md:grid-cols-2 container mx-auto">
                 <div className='flex flex-col'>
                     <h1 className=" text-3xl text-center md:text-left md:text-6xl  text-white">
@@ -22,8 +22,8 @@ const Landing = () => {
                         theuhii iuiuyiuf ijiuuyy iuiuyiugog higyufugiugu iugiufugiui yuuuygiyg iufuy ut uyufutf  uguyfu yufuftu fufuf fyuff
                     </p>
                 </div>
-                    <div>
-                    <img src={ima} alt="Nft" />
+                    <div className="animate-bounce ">
+                    <img src={ima} alt="" />
                     </div>
                 </div>
             </div>  

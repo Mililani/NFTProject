@@ -8,7 +8,7 @@ const Navbar = () => {
     const [visible,setVisible]= useState(true)
 
     return (
-        <nav className="bg-blue-300 px-2 sm:px-2 py-2.5">
+        <nav className="bg-gradient-to-l from-blue-400 via-blue-900 to-gray-900 px-2 sm:px-2 py-2.5">
             <div className="container flex flex-wrap items-center mx-auto justify-between">
                 <a href className=" text-3xl line-through">NFT</a>
                  <div className="flex md:hidden md:order-2">
