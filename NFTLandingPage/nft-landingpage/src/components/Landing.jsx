@@ -1,11 +1,11 @@
 import React from 'react';
-import ima from "./images/—Pngtree—a businessman wearing vr headsets_7650332.png";
+import ima from "./images/—Pngtree—nft cyberpunk robot machine monster_8818241.png";
 
 
 const Landing = () => {
     return (
         <>
-            <div className="bg-gradient-to-r from-blue-400 via-blue-900 to-gray-900 py-20 md:py-24  ">
+            <div className="bg-gradient-to-r from-blue-900 via-blue-900 to-gray-900 py-20 md:py-24  ">
                 <div className=" grid grid-cols-1 md:grid-cols-2 container mx-auto">
                 <div className='flex flex-col gap-4'>
                     <h1 className=" text-3xl text-center md:text-left md:text-6xl  text-white">
