@@ -1,5 +1,7 @@
 import React from 'react';
+import CountDown from './CountDown';
 import ima from "./images/—Pngtree—nft cyberpunk robot machine monster_8818241.png";
+
 
 
 const Landing = () => {
@@ -20,9 +22,9 @@ const Landing = () => {
               Next nft minting in!!
             </h2>
             <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
-            CONNECT
+            Mint
           </button>
-            {/*<CountDown />*/}
+            <CountDown/>
           </div>
         </div>
         <div className="hero lg:block hidden">
