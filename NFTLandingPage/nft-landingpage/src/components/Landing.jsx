@@ -7,8 +7,8 @@ import ima from "./images/—Pngtree—nft cyberpunk robot machine monster_88182
 const Landing = () => {
     return (
         <div className="hero lg:grid grid-cols-2 gap-3 items-center">
-            <div className="col-span-1 py-12 lg:py-0">
-                <h1 className="2xl:text-5xl lg:text-4xl sm:text-5xl text-4xl leading-snug 2xl:leading-snug sm:leading-snug lg:leading-snug font-head text-whites tracking-wide">
+            <div className="col-span-1 py-12 md:px-5 lg:py-0">
+                <h1 className="2xl:text-5xl lg:text-4xl sm:text-5xl  text-4xl leading-snug 2xl:leading-snug sm:leading-snug lg:leading-snug font-head text-whites tracking-wide">
                      Discover, collect <br />
                     <span className="text-pink">and sell Timeless </span>
                      <span className="text-blue"> NFTs</span>
