@@ -6,9 +6,11 @@ import Subs from "./components/Subs";
 function App() {
   return (
     <div className=" main text-white">
-     <Navbar/>
-     <Landing/>
-     <Subs/>
+      <div className="container mx-auto xl:px 32 px-2 pt-10">
+        <Navbar/>
+        <Landing/>
+        <Subs/>
+      </div>
     </div>
   );
 }
