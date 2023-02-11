@@ -8,7 +8,7 @@ const Navbar = () => {
     
   const [show, setShow] = useState(true)
     return (
-        <div className="grid grid-cols-4 justify-center items-center relative">
+        <footer className="grid grid-cols-4 justify-center items-center relative">
         <a href="/" className="lg:col-span-1 col-span-2">
           <img src="logo.png" alt="Logo" className="w-32" />
         </a>
@@ -38,10 +38,10 @@ const Navbar = () => {
             </li>
           </ul>
           <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
-            CONNECT
+          <i class="fas fa-wallet"></i> CONNECT wallet
           </button>
         </div>
-      </div>
+      </footer>
     );
 }
 
