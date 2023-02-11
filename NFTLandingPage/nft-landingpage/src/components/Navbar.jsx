@@ -1,32 +1,47 @@
 import React from 'react';
 import { useState } from 'react';
-import {BiMenu,BiArrowToTop} from "react-icons/bi";
 
 
+const menuClass =
+  "text-whites font-semibold tracking-widest text-sm my-6 lg:my-0 lg:mx-6 hover:text-blue transitione";
 const Navbar = () => {
- 
-    const [visible,setVisible]= useState(true)
-
+    
+  const [show, setShow] = useState(true)
     return (
-        <nav className="bg-gradient-to-l from-blue-400 via-blue-900 to-gray-900 px-2 sm:px-2 py-2.5">
-            <div className="container flex flex-wrap items-center mx-auto justify-between">
-                <a href className=" text-3xl line-through">NFT</a>
-                 <div className="flex md:hidden md:order-2">
-                    <button type="button " onClick={()=> setVisible(!visible)}>
-                        {visible ? <BiMenu size={20}/> : <BiArrowToTop size={20}/>}
-                    </button>
-                 </div>
-                 <div className={`${visible ? `hidden` : ``} justify-between  items-center w-full md:flex md:w-auto md:order-1`}>
-                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-xl ">
-                        <li className="py-2 md:py-0">
-                            <a href="google.com" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">home</a> </li>
-                        <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">About</a></li>
-                        <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Minting Process</a></li>
-                        <li className="py-2 md:py-0"><a href="https://styled-icons.dev" className="py-4 pr-6 pl-0 hover:opacity-80 transition-all">Connect Wallet</a></li>
-                    </ul>
-                 </div>
-            </div>  
-        </nav>
+        <div className="grid grid-cols-4 justify-center items-center relative">
+        <a href="/" className="lg:col-span-1 col-span-2">
+          <img src="logo.png" alt="Logo" className="w-32" />
+        </a>
+        <div className="col-span-2 flex lg:hidden justify-end">
+          <button
+            onClick={() => setShow(!show)}
+            className={` bt-linear font-semibold text-whites text-md py-3 px-5 rounded`}
+          >
+            <i className={`${show ? "far fa-bars" : "far fa-times"}`}></i>
+          </button>
+        </div>
+  
+        <div
+          className={`${
+            show ? "hidden" : "block"
+          } bgSmall left-0 px-4 right-0 absolute top-12 lg:px-0 lg:relative lg:top-0 lg:col-span-3 lg:flex gap-10 justify-end items-center`}
+        >
+          <ul className="lg:flex">
+            <li className={menuClass}>
+              <a href="#">HOME</a>
+            </li>
+            <li className={menuClass}>
+              <a href="#">ABOUT US</a>
+            </li>
+            <li className={menuClass}>
+              <a href="#">EXPLORE</a>
+            </li>
+          </ul>
+          <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
+            CONNECT
+          </button>
+        </div>
+      </div>
     );
 }
 
