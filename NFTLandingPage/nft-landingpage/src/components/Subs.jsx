@@ -20,7 +20,7 @@ function Subs() {
           </button>
         </div>
         <p className="font-medium text-sm text-center italic text-lightBlack mt-3">
-          By sending us your email you will get notfication when new NFT droped
+          By sending us your email you will get notfication when new NFT drops
         </p>
         <div className="flex-rows mt-6 pb-12">
           <a href="https://medium.com/@irenemmassyy" className={socialClass}>
