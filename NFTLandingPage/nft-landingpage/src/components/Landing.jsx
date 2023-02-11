@@ -19,12 +19,12 @@ const Landing = () => {
             <h2 className="italic font-semibold text-blue">
               NFT drop coming soon!!
             </h2>
-            <CountDown />
+            {/*<CountDown />*/}
           </div>
         </div>
         <div className="hero lg:block hidden">
           <img
-            src="/images/main.png"
+            src={ima} 
             alt="Main"
             className="w-full h-full object-contain"
           />

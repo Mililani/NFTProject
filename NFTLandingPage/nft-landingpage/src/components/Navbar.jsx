@@ -28,13 +28,13 @@ const Navbar = () => {
         >
           <ul className="lg:flex">
             <li className={menuClass}>
-              <a href="#">HOME</a>
+              <a href="google.com">HOME</a>
             </li>
             <li className={menuClass}>
-              <a href="#">ABOUT US</a>
+              <a href="google.com">ABOUT US</a>
             </li>
             <li className={menuClass}>
-              <a href="#">EXPLORE</a>
+              <a href="google.com">EXPLORE</a>
             </li>
           </ul>
           <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
