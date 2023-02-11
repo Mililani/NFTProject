@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 
 const countClasses = {
   mainBox: "count flex-colo overflow-hidden rounded",
-  boxOne: "py-2 px-2 text-lg font-black tracking-wider text-whites",
-  boxTwo: "px-2 w-full h-6 bg-whites font-medium flex-colo italic text-xs",
+  boxOne: "py-2 px-2 text-lg font-black tracking-wider text-Blue-300",
+  boxTwo: "px-2 w-full h-6 bg-black font-medium flex-colo italic text-xs",
 };
 
 function CountDown() {
