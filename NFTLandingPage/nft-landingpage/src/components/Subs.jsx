@@ -23,14 +23,14 @@ function Subs() {
           By sending us your email you will get notfication when new NFT drops
         </p>
         <div className="flex-rows mt-6 pb-12">
-          <a href="https://medium.com/@irenemmassyy" className={socialClass}>
-            <i class="fab fa-medium-m"></i>
+          <a href="https://github.com/Mililani" className={socialClass}>
+          <i class="fab fa-github"></i>
           </a>
-          <a href="https://t.me/zpunet" className={socialClass}>
+          <a href="https://t.me/mililani_rakhetsi" className={socialClass}>
             <i class="fab fa-telegram-plane"></i>
           </a>
           <a href="https://m.youtube.com/channel/UCOYwYO-LEsrjqBs6xXSfq1w" className={socialClass}>
-            <i class="fab fa-youtube"></i>
+          <i class="fab fa-linkedin"></i>
           </a>
         </div>
       </div>
