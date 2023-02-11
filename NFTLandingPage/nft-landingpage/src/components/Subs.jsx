@@ -16,11 +16,11 @@ function Subs() {
             placeholder="E-mail"
           />
           <button className="w-2/6 md:w-1/6 bg-whites text-pink font-bold text-sm rounded">
-            SUBSCRIBE
+            Send
           </button>
         </div>
         <p className="font-medium text-sm text-center italic text-lightBlack mt-3">
-          By subcribe us you will get notfication when new NFT droped
+          By sending us your email you will get notfication when new NFT droped
         </p>
         <div className="flex-rows mt-6 pb-12">
           <a href="https://medium.com/@irenemmassyy" className={socialClass}>
