@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-/*Navigation Bar*/
+/*Navigation */
 const navMobile =
   "text-whites font-semibold tracking-widest text-sm my-6 lg:my-0 lg:mx-6 hover:text-blue transitione";
 const Navbar = () => {
