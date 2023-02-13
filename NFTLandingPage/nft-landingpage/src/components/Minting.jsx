@@ -5,7 +5,7 @@ import Topheading from "./Topheading";
 /*Minting Process */
 const Minting = () => {
     return (
-        <div className="w-full  md:py20 bg-blue-50 p-6 md:py-20">
+        <div className="w-full  md:py20 bg-blue-50 p-6 md:py-15">
              <Topheading title={"Steps to Mint an NFT"}/>
              <div className="flex flex-wrap justify-center">
                 
