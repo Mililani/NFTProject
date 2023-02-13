@@ -113,7 +113,7 @@ const Process = () => {
               </div>
   
               <button className="px-6 text-whites tracking-wide py-3 mt-5 bt-linear font-bold text-sm rounded">
-                Read More
+               Collect
               </button>
             </div>
           ))}
