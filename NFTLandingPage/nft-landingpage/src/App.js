@@ -1,8 +1,9 @@
 import About from "./components/About";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
+import Process from "./components/Process";
 import Subs from "./components/Subs";
-
+import Minting from "./components/Minting";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Navbar/>
         <Landing/>
         <About/>
+        <Process/>
+        <Minting/>
         <Subs/>
       </div>
     </div>

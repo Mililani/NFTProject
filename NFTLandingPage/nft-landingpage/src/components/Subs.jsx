@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/*Email page*/
 const socialClass =
   "w-10 h-10 border-2 text-sm flex-colo text-whites mx-2 border-pink rounded-full";
 

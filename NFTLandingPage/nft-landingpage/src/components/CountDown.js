@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+
+/*Clock calculation function*/
 const countClasses = {
   mainBox: "count flex-colo overflow-hidden rounded",
   boxOne: "py-2 px-2 text-lg font-black tracking-wider text-Blue-300",
@@ -45,6 +47,7 @@ function CountDown() {
     startTimer();
   });
 
+  /*Clock layout */
   return (
     <div className="grid grid-cols-4 2xl:gap-8 lg:gap-2 sm:gap-8 gap-3 w-full mt-5">
       <div className={countClasses.mainBox}>
