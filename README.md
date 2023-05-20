@@ -17,5 +17,3 @@ in Terminal enter npm start in the project folder use your favorite ID #to be sa
 ## Author(Developer) 
 Mililani Rakhetsi 
 
-## License
-This project is licensed under DDsystem Project  - see the [LICENSE] (LICENSE) file for details.
